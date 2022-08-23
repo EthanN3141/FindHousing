@@ -1,0 +1,33 @@
+Bugs: input must be given exactly as specified in supported queries or else the 
+      program may crash                              8/13/2022
+
+
+PURPOSE: To analyze a database of houses so that the user can find one that
+fits their specifications. 
+
+TO RUN:  ./housing [housing_database_filename]
+
+SUPPORTED QUERIES:
+*** n [house_id]   
+        example: query-> n 17
+        finds number of occupied neighboring houses to the selected house. 
+
+*** m [max_price] [desired_color] [minimum_number_of_bedrooms]
+        example: query-> m 100000 green 3
+        finds all houses from the database that fit all the given criteria
+        
+*** a [house_id]
+        example: query-> a 1
+        reports whether or not the selected house is available
+        
+*** r [house_id]
+        example: query-> r 106
+        books a house if it is available and if it is not, reports so.
+        
+INPUT FILE FORMAT:
+    *** first line must only include the number of houses
+    *** later lines must contain input formatted as follows:
+    [ID number] [House Position in Grid] [house price] [number bedrooms] [color]
+     [availability] 
+    *** see easy.testdata or big.testdata for sample input files
+        
