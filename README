@@ -7,6 +7,16 @@ fits their specifications.
 
 TO RUN:  ./housing [housing_database_filename]
 
+FILES:   
+
+big.testdata:     sample data file for houses. Many different houses with empty spaces.
+
+easy.testdata:    sample data file for houses. few houses included.
+
+housing:          executable file for housing.cpp
+
+housing.cpp: the implementation of the house matching program
+
 SUPPORTED QUERIES:
 *** n [house_id]   
         example: query-> n 17
