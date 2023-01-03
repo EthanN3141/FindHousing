@@ -1,5 +1,4 @@
-Bugs: input must be given exactly as specified in supported queries or else the 
-      program may crash                              8/13/2022
+Bugs: none as of 1/2/23
 
 
 PURPOSE: To analyze a database of houses so that the user can find one that
@@ -9,9 +8,7 @@ TO RUN:  ./housing [housing_database_filename]
 
 FILES:   
 
-big.testdata:     sample data file for houses. Many different houses with empty spaces.
-
-easy.testdata:    sample data file for houses. few houses included.
+testdata:    sample data file for houses. 
 
 housing:          executable file for housing.cpp
 
